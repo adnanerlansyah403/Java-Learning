@@ -26,7 +26,9 @@ public class TodoListServiceImpl implements TodoListService {
 
     @Override
     public void addTodoList(String todo) {
-
+        Todolist todolist = new Todolist(todo);
+        todolistRepository.add(todolist);
+        System.out.println("Sukses menambah data todo " + todo);
     }
 
     @Override
