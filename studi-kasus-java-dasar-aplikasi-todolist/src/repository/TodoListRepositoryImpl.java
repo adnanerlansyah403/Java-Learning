@@ -50,7 +50,25 @@ public class TodoListRepositoryImpl implements TodolistRepository {
     }
 
     @Override
-    public void remove(Integer number) {
+    public boolean remove(Integer number) {
+        if((number - 1) >= data.length) { // Jika number nya lebih besar dr jumlah data model
+            return false;
+        } else if(data[number - 1] == null) { // Apakah data di index tersebut telah null atau tidak
+            return false;
+        } else {
+            data[number - 1] = null;
+            // satu
+            // tiga
+            // null
 
+            for (int i = number - 1; i < data.length; i++) {
+                if(i == (data.length - 1)) {
+                    data[i] = null;
+                } else {
+                    data[i] = data[i + 1];
+                }
+            }
+            return true;
+        }
     }
 }
