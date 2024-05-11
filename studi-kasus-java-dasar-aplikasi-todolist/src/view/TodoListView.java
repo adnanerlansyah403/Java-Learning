@@ -11,7 +11,7 @@ public class TodoListView {
     }
 
     public void removeTodoList() {
-        
+
     }
 
 }
