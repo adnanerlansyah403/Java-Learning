@@ -4,7 +4,7 @@ import entity.Todolist;
 
 public class TodoListRepositoryImpl implements TodolistRepository {
 
-    private Todolist[] data = new Todolist[10];
+    public final Todolist[] data = new Todolist[10];
 
     @Override
     public Todolist[] getAll() {
@@ -13,7 +13,7 @@ public class TodoListRepositoryImpl implements TodolistRepository {
 
     @Override
     public void add(Todolist todolist) {
-    
+
     }
 
     @Override
