@@ -13,4 +13,8 @@ public class Product {
         this.price= price;
     }
 
+    public String toString() { // Override method toString() from root Object
+        return "Product name: " + name + " , price: " + price;
+    }
+
 }

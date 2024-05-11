@@ -6,6 +6,8 @@ public class ProductApp {
         Product product = new Product("Book 1", 30000);
         System.out.println(product.name);
         System.out.println(product.price);
+
+        System.out.println(product);
     }
 
 }
