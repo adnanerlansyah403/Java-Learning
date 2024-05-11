@@ -8,6 +8,11 @@ public class ProductApp {
         System.out.println(product.price);
 
         System.out.println(product);
+
+        Product product2 = new Product("Book 1", 30000);
+
+        System.out.println(product.equals(product2));
+
     }
 
 }
