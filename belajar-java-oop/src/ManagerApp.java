@@ -10,6 +10,9 @@ public class ManagerApp {
 //        vp.name = "Bayu";
         vp.sayHello("Aji");
 
+        System.out.println(manager);
+        System.out.println(vp);
+
     }
 
 }
