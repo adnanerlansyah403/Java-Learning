@@ -20,4 +20,8 @@ public class Avanza
     public boolean isMaitenance() {
         return false;
     }
+
+    public boolean isBig() {
+        return true;
+    }
 }

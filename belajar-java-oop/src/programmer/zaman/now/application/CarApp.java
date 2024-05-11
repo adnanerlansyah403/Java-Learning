@@ -9,6 +9,7 @@ public class CarApp {
         Car car = new Avanza();
         System.out.println(car.getTier());
         car.drive();
+        System.out.println(car.isMaitenance());
 
     }
 }
