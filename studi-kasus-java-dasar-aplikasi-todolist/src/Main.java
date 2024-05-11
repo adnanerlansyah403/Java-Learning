@@ -83,7 +83,7 @@ public class Main {
      * Menghapus todolist
      */
     public static boolean removeTodoList(Integer number) {
-
+        return true;
     }
 
     public static void testRemoveTodoList() {
