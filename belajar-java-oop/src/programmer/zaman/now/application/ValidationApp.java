@@ -22,6 +22,10 @@ public class ValidationApp {
 //            System.out.println("Data Null: " + e.getMessage());
 //        }
 
+        LoginRequest loginRequest2 = new LoginRequest("", null);
+        ValidationUtil.validateRuntime(loginRequest2);
+        System.out.println("Success");
+
     }
 
 }
