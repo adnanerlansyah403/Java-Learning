@@ -1,9 +1,11 @@
 package programmer.zaman.now.application;
 
+import programmer.zaman.now.annotation.Fancy;
 import programmer.zaman.now.data.Product; // Import specific package
 import programmer.zaman.now.data.*; // Import all packages
 // Default import java.lang seperti String, Integer, Boolean, dll
 
+@Fancy(name = "Application", tags = {"Application", "Java"})
 public class Application {
     public static void main(String[] args) {
 
