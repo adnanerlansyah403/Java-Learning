@@ -1,6 +1,6 @@
 package programmer.zaman.now.data;
 
-public interface Car {
+public interface Car extends HasBrand, IsMaintenance {
 
     void drive(); // default nya public abstract
 
