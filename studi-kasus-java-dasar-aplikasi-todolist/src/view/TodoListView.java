@@ -28,7 +28,7 @@ public class TodoListView {
                 addTodoList();
             } else if (input.equals("2")) {
                 removeTodoList();
-            } else if (input.equals("x")) {
+            } else if (input.equals("x") || input.contains("x")) {
                 break;
             } else {
                 System.out.println("Pilihan tidak dimengerti");
@@ -43,7 +43,7 @@ public class TodoListView {
 
         if (todo.equals("x")) {
             // batal
-            showTodoList();
+//            showTodoList();
         } else {
             todoListService.addTodoList(todo);
         }
@@ -56,7 +56,7 @@ public class TodoListView {
 
         if (number.equals("x")) {
             // batal
-             showTodoList();
+//             showTodoList();
         } else {
             todoListService.removeTodoList(Integer.valueOf(number));
         }
