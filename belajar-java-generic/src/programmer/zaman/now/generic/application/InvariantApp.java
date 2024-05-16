@@ -10,7 +10,7 @@ public class InvariantApp {
 //        MyData<Object> objectMyData = stringMyData; // Error
 
         MyData<Object> objectMyData = new MyData<>(1000);
-        MyData<Integer> integerMyData = objectMyData; // Error
+//        MyData<Integer> integerMyData = objectMyData; // Error
 //        doItInteger(objectMyData);
     }
 
