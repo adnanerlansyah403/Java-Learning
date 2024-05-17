@@ -10,7 +10,7 @@ public class ConstraintApp {
 
     }
 
-    public static class NumberData<T extends Number> {
+    public static class NumberData<T extends Number> { // hanya boleh extends 1 class dan sisa nya itu harus interface, jadi seperti ini <T extends Number & CanSayHello>
 
         public NumberData(T data) {
             this.data = data;
