@@ -7,7 +7,7 @@ public class WildcardApp {
 
         print(new MyData<>("Adnan"));
         print(new MyData<>(100));
-        print(new MyData<MultipleConstraintApp.Manager>(new MultipleConstraintApp.Manager())git );
+        print(new MyData<MultipleConstraintApp.Manager>(new MultipleConstraintApp.Manager()));
 
     }
 
